@@ -8,7 +8,6 @@
     {"id":{"name":"player_happy","path":"objects/player_happy/player_happy.yy",},"order":1,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":16,},
     {"id":{"name":"Tile_Sprite","path":"sprites/Tile_Sprite/Tile_Sprite.yy",},"order":0,},
-    {"id":{"name":"Dumy","path":"sprites/Dumy/Dumy.yy",},"order":8,},
     {"id":{"name":"player_hp","path":"objects/player_hp/player_hp.yy",},"order":0,},
     {"id":{"name":"Stage3","path":"rooms/Stage3/Stage3.yy",},"order":1,},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},"order":2,},
