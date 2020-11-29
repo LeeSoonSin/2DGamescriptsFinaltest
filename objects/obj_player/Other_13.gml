@@ -18,13 +18,13 @@ vsp += gravSpeed;
 var l758CB93E_0 = instance_place(x, y + vsp, obj_wall);
 if ((l758CB93E_0 > 0))
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 3DA4DC2A
+	/// @DnDHash : 2F65420A
 	/// @DnDParent : 758CB93E
-	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "collide"
-	collide = true;
+	/// @DnDArgument : "value" "true"
+	var collide = true;
 
 	/// @DnDAction : YoYo Games.Loops.While_Loop
 	/// @DnDVersion : 1

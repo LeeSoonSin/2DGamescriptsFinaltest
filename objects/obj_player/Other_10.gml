@@ -17,11 +17,11 @@ switch(l22115E0B_0)
 		/// @DnDInput : 2
 		/// @DnDParent : 32442116
 		/// @DnDArgument : "expr" "-1"
-		/// @DnDArgument : "expr_1" "dir*moveSpeed"
+		/// @DnDArgument : "expr_1" "dir * moveSpeed"
 		/// @DnDArgument : "var" "dir"
 		/// @DnDArgument : "var_1" "hsp"
 		dir = -1;
-		hsp = dir*moveSpeed;
+		hsp = dir * moveSpeed;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -36,11 +36,11 @@ switch(l22115E0B_0)
 		/// @DnDInput : 2
 		/// @DnDParent : 3D7D99F9
 		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_1" "dir*moveSpeed"
+		/// @DnDArgument : "expr_1" "dir * moveSpeed"
 		/// @DnDArgument : "var" "dir"
 		/// @DnDArgument : "var_1" "hsp"
 		dir = 1;
-		hsp = dir*moveSpeed;
+		hsp = dir * moveSpeed;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -60,7 +60,7 @@ switch(l22115E0B_0)
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 38748818
-/// @DnDComment : 플레이어 점프 
+/// @DnDComment : 플레이어 점프
 /// @DnDArgument : "key" "vk_up"
 var l38748818_0;
 l38748818_0 = keyboard_check_pressed(vk_up);

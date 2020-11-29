@@ -8,6 +8,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 41DBAB12
+	/// @DnDComment : 정지상태
 	/// @DnDParent : 2DCB5C5C
 	case 0:
 		/// @DnDAction : YoYo Games.Instances.Call_User_Event
@@ -48,6 +49,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 404D81DE
+	/// @DnDComment : 달리기
 	/// @DnDParent : 2DCB5C5C
 	/// @DnDArgument : "const" "1"
 	case 1:
@@ -56,6 +58,13 @@ switch(l2DCB5C5C_0)
 		/// @DnDHash : 6E3F72C8
 		/// @DnDParent : 404D81DE
 		event_user(0);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 11CE99E5
+		/// @DnDParent : 404D81DE
+		/// @DnDArgument : "event" "1"
+		event_user(1);
 	
 		/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1
@@ -73,13 +82,6 @@ switch(l2DCB5C5C_0)
 	
 		/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1
-		/// @DnDHash : 11CE99E5
-		/// @DnDParent : 404D81DE
-		/// @DnDArgument : "event" "1"
-		event_user(1);
-	
-		/// @DnDAction : YoYo Games.Instances.Call_User_Event
-		/// @DnDVersion : 1
 		/// @DnDHash : 20C66812
 		/// @DnDParent : 404D81DE
 		/// @DnDArgument : "event" "4"
@@ -89,6 +91,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 3230CB7E
+	/// @DnDComment : 점프
 	/// @DnDParent : 2DCB5C5C
 	/// @DnDArgument : "const" "2"
 	case 2:
@@ -130,6 +133,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E40678B
+	/// @DnDComment : 낙하
 	/// @DnDParent : 2DCB5C5C
 	/// @DnDArgument : "const" "3"
 	case 3:
@@ -171,6 +175,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 07AC27E1
+	/// @DnDComment : 죽음
 	/// @DnDParent : 2DCB5C5C
 	/// @DnDArgument : "const" "4"
 	case 4:
