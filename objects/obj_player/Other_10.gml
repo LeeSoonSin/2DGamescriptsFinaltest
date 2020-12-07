@@ -61,9 +61,8 @@ switch(l22115E0B_0)
 /// @DnDVersion : 1
 /// @DnDHash : 38748818
 /// @DnDComment : 플레이어 점프
-/// @DnDArgument : "key" "vk_up"
 var l38748818_0;
-l38748818_0 = keyboard_check_pressed(vk_up);
+l38748818_0 = keyboard_check_pressed(vk_space);
 if (l38748818_0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Expression

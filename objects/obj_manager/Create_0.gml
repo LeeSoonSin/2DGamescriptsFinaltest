@@ -17,3 +17,8 @@ global.player_Stage = 1;
 /// @DnDHash : 6D6ABEF6
 /// @DnDArgument : "var" "clear"
 clear = 0;
+
+/// @DnDAction : YoYo Games.Instances.Call_User_Event
+/// @DnDVersion : 1
+/// @DnDHash : 2FD0B2FB
+event_user(0);
