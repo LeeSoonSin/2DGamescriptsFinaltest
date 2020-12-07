@@ -86,6 +86,15 @@ switch(l2DCB5C5C_0)
 		/// @DnDParent : 404D81DE
 		/// @DnDArgument : "event" "4"
 		event_user(4);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 62BC9487
+		/// @DnDComment : hp 감소 시작
+		/// @DnDParent : 404D81DE
+		/// @DnDArgument : "steps" "1"
+		/// @DnDArgument : "steps_relative" "1"
+		alarm_set(0, 1 + alarm_get(0));
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
