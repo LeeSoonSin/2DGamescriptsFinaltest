@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48ff830c-97e8-44b0-9dd8-033c80ad2444","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player1",
-    "path": "folders/Sprites/Player1.yy",
+    "name": "Player2",
+    "path": "folders/Sprites/Player2.yy",
   },
   "resourceVersion": "1.0",
   "name": "Player2_Idle",

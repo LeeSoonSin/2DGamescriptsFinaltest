@@ -190,9 +190,9 @@ if(global.player_Stage == 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 767406FA
 			/// @DnDParent : 1D997299
-			/// @DnDArgument : "value" "Player1_Jump"
+			/// @DnDArgument : "value" "Player2_Jump"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Jump;
+			sprite_index = Player2_Jump;
 			break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case
@@ -206,9 +206,9 @@ if(global.player_Stage == 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 03AA5C72
 			/// @DnDParent : 6BD188F0
-			/// @DnDArgument : "value" "Player1_Fall"
+			/// @DnDArgument : "value" "Player2_Fall"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Fall;
+			sprite_index = Player2_Fall;
 			break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case
