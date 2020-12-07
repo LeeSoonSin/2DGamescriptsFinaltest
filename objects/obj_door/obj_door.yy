@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Vegetable",
-    "path": "sprites/Vegetable/Vegetable.yy",
+    "name": "Door",
+    "path": "sprites/Door/Door.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ObjCollision",
-    "path": "folders/Objects/ObjCollision.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_vegetable",
+  "name": "obj_door",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ObjCollision",
+    "path": "folders/Objects/ObjCollision.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_muscle",
