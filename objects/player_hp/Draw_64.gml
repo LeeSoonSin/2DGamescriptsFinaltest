@@ -1,8 +1,7 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
-/// @DnDHash : 07C68191
-/// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "80"
-/// @DnDArgument : "sprite" "MainJUSTHAME"
-/// @DnDSaveInfo : "sprite" "MainJUSTHAME"
-draw_sprite(MainJUSTHAME, 0, 20, 80);
+/// @DnDHash : 2184F23F
+/// @DnDArgument : "y1" ""
+/// @DnDArgument : "x2" ""
+/// @DnDArgument : "y2" ""
+draw_healthbar(0, , , , 100, $FFFFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FFFFFFFF>>24) != 0));
