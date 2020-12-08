@@ -99,6 +99,18 @@ switch(l4D01F783_0)
 		/// @DnDArgument : "var" "global.player_Stage"
 		global.player_Stage = 3;
 	
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 451C878D
+		/// @DnDApplyTo : {obj_player}
+		/// @DnDParent : 30C8466D
+		/// @DnDArgument : "x" "166"
+		/// @DnDArgument : "y" "276"
+		with(obj_player) {
+		x = 166;
+		y = 276;
+		}
+	
 		/// @DnDAction : YoYo Games.Audio.Stop_Audio
 		/// @DnDVersion : 1
 		/// @DnDHash : 5E79A780

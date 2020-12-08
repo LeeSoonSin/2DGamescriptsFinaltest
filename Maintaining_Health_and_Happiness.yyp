@@ -34,6 +34,7 @@
     {"id":{"name":"_1stage_BGM","path":"sounds/_1stage_BGM/_1stage_BGM.yy",},"order":0,},
     {"id":{"name":"Tile_School","path":"sprites/Tile_School/Tile_School.yy",},"order":3,},
     {"id":{"name":"Stage3","path":"rooms/Stage3/Stage3.yy",},"order":2,},
+    {"id":{"name":"obj_door2","path":"objects/obj_door2/obj_door2.yy",},"order":12,},
     {"id":{"name":"Door","path":"sprites/Door/Door.yy",},"order":4,},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},"order":0,},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},"order":3,},

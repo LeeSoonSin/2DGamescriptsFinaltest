@@ -41,7 +41,7 @@
     "spriteId": {"name":"Player1_Jump","path":"sprites/Player1_Jump/Player1_Jump.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 4.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
