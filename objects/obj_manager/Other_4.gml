@@ -25,8 +25,8 @@ switch(l4D01F783_0)
 		/// @DnDHash : 0BFAFB28
 		/// @DnDParent : 5BF48AC6
 		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "var" "global.stage"
-		global.stage = 1;
+		/// @DnDArgument : "var" "global.player_Stage"
+		global.player_Stage = 1;
 	
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
@@ -52,8 +52,8 @@ switch(l4D01F783_0)
 		/// @DnDHash : 154172F3
 		/// @DnDParent : 6F81E76C
 		/// @DnDArgument : "expr" "2"
-		/// @DnDArgument : "var" "global.stage"
-		global.stage = 2;
+		/// @DnDArgument : "var" "global.player_Stage"
+		global.player_Stage = 2;
 	
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
@@ -66,6 +66,23 @@ switch(l4D01F783_0)
 		x = 166;
 		y = 276;
 		}
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 3B0FBFF9
+		/// @DnDParent : 6F81E76C
+		/// @DnDArgument : "soundid" "_1stage_BGM"
+		/// @DnDSaveInfo : "soundid" "_1stage_BGM"
+		audio_stop_sound(_1stage_BGM);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 07A20DBD
+		/// @DnDParent : 6F81E76C
+		/// @DnDArgument : "soundid" "_2stage_BGM"
+		/// @DnDArgument : "loop" "1"
+		/// @DnDSaveInfo : "soundid" "_2stage_BGM"
+		audio_play_sound(_2stage_BGM, 0, 1);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -79,7 +96,24 @@ switch(l4D01F783_0)
 		/// @DnDHash : 2A107F6E
 		/// @DnDParent : 30C8466D
 		/// @DnDArgument : "expr" "3"
-		/// @DnDArgument : "var" "global.stage"
-		global.stage = 3;
+		/// @DnDArgument : "var" "global.player_Stage"
+		global.player_Stage = 3;
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5E79A780
+		/// @DnDParent : 30C8466D
+		/// @DnDArgument : "soundid" "_2stage_BGM"
+		/// @DnDSaveInfo : "soundid" "_2stage_BGM"
+		audio_stop_sound(_2stage_BGM);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 4E4B5DD5
+		/// @DnDParent : 30C8466D
+		/// @DnDArgument : "soundid" "_3stage_BGM"
+		/// @DnDArgument : "loop" "1"
+		/// @DnDSaveInfo : "soundid" "_3stage_BGM"
+		audio_play_sound(_3stage_BGM, 0, 1);
 		break;
 }

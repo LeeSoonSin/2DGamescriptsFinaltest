@@ -79,6 +79,14 @@ if (l38748818_0)
 		/// @DnDArgument : "expr" "-jumpSpeed"
 		/// @DnDArgument : "var" "vsp"
 		vsp = -jumpSpeed;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 65084667
+		/// @DnDParent : 2405CA51
+		/// @DnDArgument : "soundid" "_Jump_SE"
+		/// @DnDSaveInfo : "soundid" "_Jump_SE"
+		audio_play_sound(_Jump_SE, 0, 0);
 	}
 }
 
@@ -105,5 +113,13 @@ if (l4B577C38_0)
 		/// @DnDArgument : "expr" "-jumpSpeed"
 		/// @DnDArgument : "var" "vsp"
 		vsp = -jumpSpeed;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 3884EDFD
+		/// @DnDParent : 7AC5F80F
+		/// @DnDArgument : "soundid" "_Jump_SE"
+		/// @DnDSaveInfo : "soundid" "_Jump_SE"
+		audio_play_sound(_Jump_SE, 0, 0);
 	}
 }

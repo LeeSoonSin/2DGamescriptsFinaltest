@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tile_Junglejim",
-    "path": "sprites/Tile_Junglejim/Tile_Junglejim.yy",
+    "name": "Tile_JunglRed",
+    "path": "sprites/Tile_JunglRed/Tile_JunglRed.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -283,7 +283,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet2",
+  "name": "TileSet_Junglered",
   "tags": [],
   "resourceType": "GMTileSet",
 }
