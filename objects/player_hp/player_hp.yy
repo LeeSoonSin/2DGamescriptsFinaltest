@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "progressbar_Health_bar1",
+    "path": "sprites/progressbar_Health_bar1/progressbar_Health_bar1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

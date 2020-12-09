@@ -1,5 +1,4 @@
 {
-  "name": "terrain",
   "spriteId": {
     "name": "Tile_Sprite",
     "path": "sprites/Tile_Sprite/Tile_Sprite.yy",
@@ -284,6 +283,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "terrain",
   "tags": [],
   "resourceType": "GMTileSet",
 }

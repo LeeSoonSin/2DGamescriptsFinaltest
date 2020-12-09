@@ -4,25 +4,20 @@
 /// @DnDArgument : "expr" "80 < global.hp_Amount <= 100"
 if(80 < global.hp_Amount <= 100)
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 1DFAED86
+	/// @DnDHash : 17406D4E
 	/// @DnDParent : 48F2EAB7
-	/// @DnDArgument : "x" "20"
-	/// @DnDArgument : "y" "120"
-	/// @DnDArgument : "sprite" "progressbar_Health_bar1"
-	/// @DnDSaveInfo : "sprite" "progressbar_Health_bar1"
-	draw_sprite(progressbar_Health_bar1, 0, 20, 120);
+	/// @DnDArgument : "spriteind" "progressbar_Health_bar1"
+	/// @DnDSaveInfo : "spriteind" "progressbar_Health_bar1"
+	sprite_index = progressbar_Health_bar1;
+	image_index = 0;
 
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDAction : YoYo Games.Drawing.Draw_Self
 	/// @DnDVersion : 1
-	/// @DnDHash : 6A8C3A3E
+	/// @DnDHash : 2748AFFA
 	/// @DnDParent : 48F2EAB7
-	/// @DnDArgument : "x" "25"
-	/// @DnDArgument : "y" "120"
-	/// @DnDArgument : "sprite" "progressbar_Health_2"
-	/// @DnDSaveInfo : "sprite" "progressbar_Health_2"
-	draw_sprite(progressbar_Health_2, 0, 25, 120);
+	draw_self();
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -31,23 +26,40 @@ if(80 < global.hp_Amount <= 100)
 /// @DnDArgument : "expr" "60 < global.hp_Amount <= 80"
 if(60 < global.hp_Amount <= 80)
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 4B45BB8C
+	/// @DnDHash : 516F63C4
 	/// @DnDParent : 156439E2
-	/// @DnDArgument : "x" "25"
-	/// @DnDArgument : "y" "120"
-	/// @DnDArgument : "sprite" "progressbar_Health_1"
-	/// @DnDSaveInfo : "sprite" "progressbar_Health_1"
-	draw_sprite(progressbar_Health_1, 0, 25, 120);
+	/// @DnDArgument : "spriteind" "progressbar_Health_bar2"
+	/// @DnDSaveInfo : "spriteind" "progressbar_Health_bar2"
+	sprite_index = progressbar_Health_bar2;
+	image_index = 0;
 
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDAction : YoYo Games.Drawing.Draw_Self
 	/// @DnDVersion : 1
-	/// @DnDHash : 1F418EDD
+	/// @DnDHash : 5CA60DA4
 	/// @DnDParent : 156439E2
-	/// @DnDArgument : "x" "20"
-	/// @DnDArgument : "y" "120"
-	/// @DnDArgument : "sprite" "progressbar_Health_bar3"
-	/// @DnDSaveInfo : "sprite" "progressbar_Health_bar3"
-	draw_sprite(progressbar_Health_bar3, 0, 20, 120);
+	draw_self();
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 6C659D49
+/// @DnDArgument : "expr" "20 < global.hp_Amount <= 60"
+if(20 < global.hp_Amount <= 60)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 40F24F1C
+	/// @DnDParent : 6C659D49
+	/// @DnDArgument : "spriteind" "progressbar_Health_bar3"
+	/// @DnDSaveInfo : "spriteind" "progressbar_Health_bar3"
+	sprite_index = progressbar_Health_bar3;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Self
+	/// @DnDVersion : 1
+	/// @DnDHash : 712469F8
+	/// @DnDParent : 6C659D49
+	draw_self();
 }
