@@ -17,3 +17,9 @@ global.hp_State = 0;
 /// @DnDArgument : "value" "100"
 /// @DnDArgument : "var" "hp_Amount"
 global.hp_Amount = 100;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 55457DF9
+/// @DnDArgument : "var" "index"
+index = 0;
