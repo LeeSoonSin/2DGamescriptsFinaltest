@@ -71,11 +71,12 @@ switch(l776B88C7_0)
 		break;
 }
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 4983322B
-/// @DnDArgument : "x" "5"
-/// @DnDArgument : "y" "150"
+/// @DnDHash : 1401CE85
+/// @DnDArgument : "x" "110"
+/// @DnDArgument : "y" "230"
+/// @DnDArgument : "xscale" "obj_player.Player_Hp"
 /// @DnDArgument : "sprite" "progressbar_Health_2"
 /// @DnDSaveInfo : "sprite" "progressbar_Health_2"
-draw_sprite(progressbar_Health_2, 0, 5, 150);
+draw_sprite_ext(progressbar_Health_2, 0, 110, 230, obj_player.Player_Hp, 1, 0, $FFFFFF & $ffffff, 1);
