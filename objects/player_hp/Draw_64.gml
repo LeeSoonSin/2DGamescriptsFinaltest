@@ -73,10 +73,10 @@ switch(l776B88C7_0)
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 1401CE85
+/// @DnDHash : 6D40EDC5
 /// @DnDArgument : "x" "110"
 /// @DnDArgument : "y" "230"
-/// @DnDArgument : "xscale" "obj_player.Player_Hp"
+/// @DnDArgument : "xscale" "(global.hp_Amount /obj_player.Player_Hp_max * 100)/100"
 /// @DnDArgument : "sprite" "progressbar_Health_2"
 /// @DnDSaveInfo : "sprite" "progressbar_Health_2"
-draw_sprite_ext(progressbar_Health_2, 0, 110, 230, obj_player.Player_Hp, 1, 0, $FFFFFF & $ffffff, 1);
+draw_sprite_ext(progressbar_Health_2, 0, 110, 230, (global.hp_Amount /obj_player.Player_Hp_max * 100)/100, 1, 0, $FFFFFF & $ffffff, 1);

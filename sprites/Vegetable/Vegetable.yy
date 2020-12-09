@@ -12,7 +12,7 @@
   "bbox_top": 12,
   "bbox_bottom": 63,
   "HTile": false,
-  "VTile": false,
+  "VTile": true,
   "For3D": false,
   "width": 63,
   "height": 66,
