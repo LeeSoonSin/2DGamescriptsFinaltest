@@ -222,9 +222,9 @@ if(global.player_Stage == 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 6B64D501
 			/// @DnDParent : 5189F217
-			/// @DnDArgument : "value" "Player1_Damaged"
+			/// @DnDArgument : "value" "Player2_Damaged"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Damaged;
+			sprite_index = Player2_Damaged;
 			break;
 	}
 }
@@ -318,9 +318,9 @@ if(global.player_Stage == 3)
 			/// @DnDVersion : 1
 			/// @DnDHash : 31D78364
 			/// @DnDParent : 7FDD4DD8
-			/// @DnDArgument : "value" "Player1_Damaged"
+			/// @DnDArgument : "value" "Player3_Damaged"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Damaged;
+			sprite_index = Player3_Damaged;
 			break;
 	}
 }

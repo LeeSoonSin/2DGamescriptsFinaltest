@@ -71,8 +71,8 @@ if(global.player_Stage == 2)
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3738BA3E
-/// @DnDArgument : "expr" "global.player_Stage == 1"
-if(global.player_Stage == 1)
+/// @DnDArgument : "expr" "global.player_Stage == 3"
+if(global.player_Stage == 3)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
