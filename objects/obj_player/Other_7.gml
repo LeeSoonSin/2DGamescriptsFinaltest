@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 314E955C
-/// @DnDArgument : "expr" "sprite_index == Player1_Death"
-if(sprite_index == Player1_Death)
+/// @DnDArgument : "expr" "sprite_index == Player1_Damaged"
+if(sprite_index == Player1_Damaged)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
@@ -18,4 +18,12 @@ if(sprite_index == Player1_Death)
 	/// @DnDArgument : "value" "6"
 	/// @DnDArgument : "instvar" "11"
 	image_index = 6;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 13385985
+	/// @DnDParent : 314E955C
+	/// @DnDArgument : "steps" "2"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 2);
 }

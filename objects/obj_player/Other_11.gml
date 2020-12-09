@@ -118,7 +118,7 @@ if(global.player_Stage == 1)
 		/// @DnDAction : YoYo Games.Switch.Case
 		/// @DnDVersion : 1
 		/// @DnDHash : 686E2290
-		/// @DnDComment : 사망
+		/// @DnDComment : 데미지
 		/// @DnDParent : 0D308C67
 		/// @DnDArgument : "const" "4"
 		case 4:
@@ -126,9 +126,9 @@ if(global.player_Stage == 1)
 			/// @DnDVersion : 1
 			/// @DnDHash : 6BFD8415
 			/// @DnDParent : 686E2290
-			/// @DnDArgument : "value" "Player1_Death"
+			/// @DnDArgument : "value" "Player1_Damaged"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Death;
+			sprite_index = Player1_Damaged;
 			break;
 	}
 }
@@ -174,9 +174,9 @@ if(global.player_Stage == 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 5791E65E
 			/// @DnDParent : 6767DC5C
-			/// @DnDArgument : "value" "Player1_Run"
+			/// @DnDArgument : "value" "Player2_Run"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Run;
+			sprite_index = Player2_Run;
 			break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case
@@ -213,18 +213,114 @@ if(global.player_Stage == 2)
 	
 		/// @DnDAction : YoYo Games.Switch.Case
 		/// @DnDVersion : 1
-		/// @DnDHash : 27AC9598
-		/// @DnDComment : 사망
+		/// @DnDHash : 5189F217
+		/// @DnDComment : 데미지
 		/// @DnDParent : 4CF5FF85
 		/// @DnDArgument : "const" "4"
 		case 4:
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
-			/// @DnDHash : 47EDC45B
-			/// @DnDParent : 27AC9598
-			/// @DnDArgument : "value" "Player1_Death"
+			/// @DnDHash : 6B64D501
+			/// @DnDParent : 5189F217
+			/// @DnDArgument : "value" "Player1_Damaged"
 			/// @DnDArgument : "instvar" "10"
-			sprite_index = Player1_Death;
+			sprite_index = Player1_Damaged;
+			break;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 3CA7A426
+/// @DnDArgument : "expr" "global.player_Stage == 3"
+if(global.player_Stage == 3)
+{
+	/// @DnDAction : YoYo Games.Switch.Switch
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BE3FDDD
+	/// @DnDComment : 플레이어 상태에 맞는 애니메이션
+	/// @DnDParent : 3CA7A426
+	/// @DnDArgument : "expr" "player_State"
+	var l5BE3FDDD_0 = player_State;
+	switch(l5BE3FDDD_0)
+	{
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 33A71CAD
+		/// @DnDComment : 일반
+		/// @DnDParent : 5BE3FDDD
+		case 0:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 6913F31A
+			/// @DnDParent : 33A71CAD
+			/// @DnDArgument : "value" "Player3_Idle"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = Player3_Idle;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F952BFB
+		/// @DnDComment : 달리기
+		/// @DnDParent : 5BE3FDDD
+		/// @DnDArgument : "const" "1"
+		case 1:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 49C1F999
+			/// @DnDParent : 0F952BFB
+			/// @DnDArgument : "value" "Player3_Run"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = Player3_Run;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 73707D0B
+		/// @DnDComment : 점프
+		/// @DnDParent : 5BE3FDDD
+		/// @DnDArgument : "const" "2"
+		case 2:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 334F481B
+			/// @DnDParent : 73707D0B
+			/// @DnDArgument : "value" "Player3_Jump"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = Player3_Jump;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 464B5399
+		/// @DnDComment : 낙하
+		/// @DnDParent : 5BE3FDDD
+		/// @DnDArgument : "const" "3"
+		case 3:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 0D1BCEC4
+			/// @DnDParent : 464B5399
+			/// @DnDArgument : "value" "Player3_Jump"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = Player3_Jump;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 7FDD4DD8
+		/// @DnDComment : 데미지
+		/// @DnDParent : 5BE3FDDD
+		/// @DnDArgument : "const" "4"
+		case 4:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 31D78364
+			/// @DnDParent : 7FDD4DD8
+			/// @DnDArgument : "value" "Player1_Damaged"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = Player1_Damaged;
 			break;
 	}
 }

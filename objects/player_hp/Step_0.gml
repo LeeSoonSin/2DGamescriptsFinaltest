@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 68DCABD1
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "global.hp_Amount  <= 100"
-/// @DnDArgument : "expr_1" "80 < global.hp_Amount"
-if(global.hp_Amount  <= 100 && 80 < global.hp_Amount)
+/// @DnDArgument : "expr" "global.happy_Amount  <= 100"
+/// @DnDArgument : "expr_1" "80 < global.happy_Amount"
+if(global.happy_Amount  <= 100 && 80 < global.happy_Amount)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -18,9 +18,9 @@ if(global.hp_Amount  <= 100 && 80 < global.hp_Amount)
 /// @DnDVersion : 1
 /// @DnDHash : 2CDC84BC
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "global.hp_Amount <= 80"
-/// @DnDArgument : "expr_1" "60 < global.hp_Amount"
-if(global.hp_Amount <= 80 && 60 < global.hp_Amount)
+/// @DnDArgument : "expr" "global.happy_Amount <= 80"
+/// @DnDArgument : "expr_1" "60 < global.happy_Amount"
+if(global.happy_Amount <= 80 && 60 < global.happy_Amount)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -35,9 +35,9 @@ if(global.hp_Amount <= 80 && 60 < global.hp_Amount)
 /// @DnDVersion : 1
 /// @DnDHash : 3F08A7FF
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "global.hp_Amount <= 60"
-/// @DnDArgument : "expr_1" "20 < global.hp_Amount"
-if(global.hp_Amount <= 60 && 20 < global.hp_Amount)
+/// @DnDArgument : "expr" "global.happy_Amount <= 60"
+/// @DnDArgument : "expr_1" "20 < global.happy_Amount"
+if(global.happy_Amount <= 60 && 20 < global.happy_Amount)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
