@@ -293,8 +293,8 @@ switch(l0CD3CADF_0)
 	/// @DnDHash : 40F0C546
 	/// @DnDComment : 사망
 	/// @DnDParent : 0CD3CADF
-	/// @DnDArgument : "const" "4"
-	case 4:
+	/// @DnDArgument : "const" "5"
+	case 5:
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1389FBD1

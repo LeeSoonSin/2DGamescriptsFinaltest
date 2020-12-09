@@ -184,7 +184,7 @@ switch(l2DCB5C5C_0)
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 07AC27E1
-	/// @DnDComment : 죽음
+	/// @DnDComment : 데미지
 	/// @DnDParent : 2DCB5C5C
 	/// @DnDArgument : "const" "4"
 	case 4:
