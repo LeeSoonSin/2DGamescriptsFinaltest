@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Door",
-    "path": "sprites/Door/Door.yy",
+    "name": "MainJUSTHAME",
+    "path": "sprites/MainJUSTHAME/MainJUSTHAME.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_door3","path":"objects/obj_door3/obj_door3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Start_and_End",
+    "path": "folders/Objects/Start_and_End.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door3",
+  "name": "JustGame",
   "tags": [],
   "resourceType": "GMObject",
 }

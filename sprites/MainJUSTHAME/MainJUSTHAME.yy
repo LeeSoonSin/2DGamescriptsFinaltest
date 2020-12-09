@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ff270f9-f824-4371-b683-ebc492b0a846","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Ending",
-    "path": "folders/Sprites/Ending.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "MainJUSTHAME",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d74c59f-c1b0-4e3d-8f39-4e232b44839d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Ending",
-    "path": "folders/Sprites/Ending.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Main_Start",
