@@ -10,6 +10,7 @@
     {"id":{"name":"JustGame","path":"objects/JustGame/JustGame.yy",},"order":0,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":17,},
     {"id":{"name":"Player1_Fall","path":"sprites/Player1_Fall/Player1_Fall.yy",},"order":1,},
+    {"id":{"name":"Object17","path":"objects/Object17/Object17.yy",},"order":14,},
     {"id":{"name":"Player2_Jump","path":"sprites/Player2_Jump/Player2_Jump.yy",},"order":1,},
     {"id":{"name":"progressbar_Health_1","path":"sprites/progressbar_Health_1/progressbar_Health_1.yy",},"order":0,},
     {"id":{"name":"HEALTHYEND","path":"sprites/HEALTHYEND/HEALTHYEND.yy",},"order":4,},
