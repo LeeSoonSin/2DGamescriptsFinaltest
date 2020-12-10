@@ -17,7 +17,7 @@ if(global.happy_Amount <= 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5F09AEED
 	/// @DnDDisabled : 1
-	/// @DnDApplyTo : {obj_player}
+	/// @DnDApplyTo : all
 	/// @DnDParent : 63B4D9F0
 	/// @DnDArgument : "room" "BadEnd"
 	/// @DnDSaveInfo : "room" "BadEnd"
@@ -52,7 +52,7 @@ if(global.hp_Amount <= 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 65339FA5
 	/// @DnDDisabled : 1
-	/// @DnDApplyTo : {obj_player}
+	/// @DnDApplyTo : all
 	/// @DnDParent : 3B1E23E0
 	/// @DnDArgument : "room" "BadEnd"
 	/// @DnDSaveInfo : "room" "BadEnd"
