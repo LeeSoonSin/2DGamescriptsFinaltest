@@ -1,70 +1,79 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6242E337
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "gravSpeed"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "vsp"
-
-
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
-/// @DnDHash : 05551200
-/// @DnDDisabled : 1
+/// @DnDHash : 41F43554
 /// @DnDArgument : "x" "hsp"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "y"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-/// @DnDAction : YoYo Games.Common.Temp_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4332C776
-/// @DnDDisabled : 1
-/// @DnDParent : 05551200
-/// @DnDArgument : "var" "collide"
-/// @DnDArgument : "value" "true"
+/// @DnDArgument : "object" "obj_somke_wall_right"
+/// @DnDSaveInfo : "object" "obj_somke_wall_right"
+var l41F43554_0 = instance_place(x + hsp, y, obj_somke_wall_right);
+if ((l41F43554_0 > 0))
+{
+	/// @DnDAction : YoYo Games.Common.Temp_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 710E6A57
+	/// @DnDParent : 41F43554
+	/// @DnDArgument : "var" "smoke_collide"
+	/// @DnDArgument : "value" "true"
+	var smoke_collide = true;
 
-
-/// @DnDAction : YoYo Games.Loops.While_Loop
-/// @DnDVersion : 1
-/// @DnDHash : 015D97DE
-/// @DnDDisabled : 1
-/// @DnDParent : 05551200
-/// @DnDArgument : "var" "collide"
-/// @DnDArgument : "value" "true"
-/// @DnDAction : YoYo Games.Collisions.If_Object_At
-/// @DnDVersion : 1.1
-/// @DnDHash : 28EC7186
-/// @DnDDisabled : 1
-/// @DnDParent : 015D97DE
-/// @DnDArgument : "x" "sign(hsp)"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "y"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 106EAB47
-/// @DnDDisabled : 1
-/// @DnDParent : 28EC7186
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "collide"
+	/// @DnDAction : YoYo Games.Loops.While_Loop
+	/// @DnDVersion : 1
+	/// @DnDHash : 456FF5A4
+	/// @DnDParent : 41F43554
+	/// @DnDArgument : "var" "smoke_collide"
+	/// @DnDArgument : "value" "true"
+	while ((smoke_collide == true)) {
+		/// @DnDAction : YoYo Games.Collisions.If_Object_At
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 1C08B3F4
+		/// @DnDParent : 456FF5A4
+		/// @DnDArgument : "x" "sign(hsp)"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "y"
+		/// @DnDArgument : "object" "obj_somke_wall_right"
+		/// @DnDSaveInfo : "object" "obj_somke_wall_right"
+		var l1C08B3F4_0 = instance_place(x + sign(hsp), y, obj_somke_wall_right);
+		if ((l1C08B3F4_0 > 0))
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 329CE45B
+			/// @DnDParent : 1C08B3F4
+			/// @DnDArgument : "expr" "false"
+			/// @DnDArgument : "var" "smoke_collide"
+			smoke_collide = false;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 7E8E629B
+		/// @DnDParent : 456FF5A4
+		else
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 10758496
+			/// @DnDParent : 7E8E629B
+			/// @DnDArgument : "expr" "sign(hsp)"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "x"
+			x += sign(hsp);
+		}
+	}
+}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
-/// @DnDHash : 0C283F85
-/// @DnDDisabled : 1
-/// @DnDParent : 015D97DE
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0F4AEDE5
-/// @DnDDisabled : 1
-/// @DnDParent : 0C283F85
-/// @DnDArgument : "expr" "sign(hsp)"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "x"
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 7A724E82
-/// @DnDDisabled : 1
+/// @DnDHash : 187CE1DC
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6A2DB875
+	/// @DnDParent : 187CE1DC
+	/// @DnDArgument : "expr" "hsp"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "x"
+	x += hsp;
+}
