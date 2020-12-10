@@ -8,5 +8,5 @@ image_yscale = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 33660E83
 /// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "dir"
-dir = 1;
+/// @DnDArgument : "var" "smoke_dir"
+smoke_dir = 1;

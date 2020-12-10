@@ -37,9 +37,9 @@ switch(l776B88C7_0)
 		/// @DnDHash : 2615FF0E
 		/// @DnDParent : 6E98FBA6
 		/// @DnDArgument : "y" "150"
-		/// @DnDArgument : "sprite" "progressbar_Health_bar2"
-		/// @DnDSaveInfo : "sprite" "progressbar_Health_bar2"
-		draw_sprite_ext(progressbar_Health_bar2, 0, 0, 150, 1, 1, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "progressbar_Health_bar4"
+		/// @DnDSaveInfo : "sprite" "progressbar_Health_bar4"
+		draw_sprite_ext(progressbar_Health_bar4, 0, 0, 150, 1, 1, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Loops.Break
 		/// @DnDVersion : 1
@@ -59,14 +59,58 @@ switch(l776B88C7_0)
 		/// @DnDHash : 2D256F2B
 		/// @DnDParent : 76D46BAF
 		/// @DnDArgument : "y" "150"
+		/// @DnDArgument : "sprite" "progressbar_Health_bar2"
+		/// @DnDSaveInfo : "sprite" "progressbar_Health_bar2"
+		draw_sprite_ext(progressbar_Health_bar2, 0, 0, 150, 1, 1, 0, $FFFFFF & $ffffff, 1);
+	
+		/// @DnDAction : YoYo Games.Loops.Break
+		/// @DnDVersion : 1
+		/// @DnDHash : 0943E47F
+		/// @DnDParent : 76D46BAF
+		break;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 4AFE147C
+	/// @DnDParent : 776B88C7
+	/// @DnDArgument : "const" "3"
+	case 3:
+		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 123155BA
+		/// @DnDParent : 4AFE147C
+		/// @DnDArgument : "y" "150"
+		/// @DnDArgument : "sprite" "progressbar_Health_bar5"
+		/// @DnDSaveInfo : "sprite" "progressbar_Health_bar5"
+		draw_sprite_ext(progressbar_Health_bar5, 0, 0, 150, 1, 1, 0, $FFFFFF & $ffffff, 1);
+	
+		/// @DnDAction : YoYo Games.Loops.Break
+		/// @DnDVersion : 1
+		/// @DnDHash : 65A79E48
+		/// @DnDParent : 4AFE147C
+		break;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B6172D0
+	/// @DnDParent : 776B88C7
+	/// @DnDArgument : "const" "4"
+	case 4:
+		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 4784A069
+		/// @DnDParent : 0B6172D0
+		/// @DnDArgument : "y" "150"
 		/// @DnDArgument : "sprite" "progressbar_Health_bar3"
 		/// @DnDSaveInfo : "sprite" "progressbar_Health_bar3"
 		draw_sprite_ext(progressbar_Health_bar3, 0, 0, 150, 1, 1, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Loops.Break
 		/// @DnDVersion : 1
-		/// @DnDHash : 0943E47F
-		/// @DnDParent : 76D46BAF
+		/// @DnDHash : 66A6A98F
+		/// @DnDParent : 0B6172D0
 		break;
 		break;
 }

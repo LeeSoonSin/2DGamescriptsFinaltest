@@ -43,9 +43,9 @@ if(global.happy_Amount > obj_player.Player_happy_max)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FD2E7FB
 	/// @DnDParent : 057C4102
-	/// @DnDArgument : "expr" "100"
+	/// @DnDArgument : "expr" "Player_happy_max"
 	/// @DnDArgument : "var" "global.happy_Amount"
-	global.happy_Amount = 100;
+	global.happy_Amount = Player_happy_max;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -94,9 +94,9 @@ if(global.hp_Amount > obj_player.Player_Hp_max)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4859BC3B
 	/// @DnDParent : 7BA20379
-	/// @DnDArgument : "expr" "100"
+	/// @DnDArgument : "expr" "Player_Hp_max"
 	/// @DnDArgument : "var" "global.hp_Amount"
-	global.hp_Amount = 100;
+	global.hp_Amount = Player_Hp_max;
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
