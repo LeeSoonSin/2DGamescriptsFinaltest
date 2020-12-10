@@ -48,6 +48,17 @@ if(alpha == 1)
 	/// @DnDParent : 4A598E86
 	variable = 0;
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 799978DD
+	/// @DnDApplyTo : {obj_player}
+	/// @DnDParent : 4A598E86
+	/// @DnDArgument : "var" "player_State"
+	with(obj_player) {
+	player_State = 0;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1BE6C0F7

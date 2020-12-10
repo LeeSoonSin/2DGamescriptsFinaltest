@@ -216,4 +216,13 @@ switch(l2DCB5C5C_0)
 		/// @DnDArgument : "event" "4"
 		event_user(4);
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 705B901F
+	/// @DnDParent : 2DCB5C5C
+	/// @DnDArgument : "const" "10"
+	case 10:
+	
+		break;
 }

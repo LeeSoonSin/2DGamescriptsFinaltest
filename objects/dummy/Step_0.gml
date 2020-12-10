@@ -34,5 +34,17 @@ if(alpha == 1)
 		/// @DnDArgument : "loop" "1"
 		/// @DnDSaveInfo : "soundid" "_BadEnding_BGM"
 		audio_play_sound(_BadEnding_BGM, 0, 1);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 51AF1DA7
+		/// @DnDApplyTo : {obj_player}
+		/// @DnDParent : 2DBB5B19
+		/// @DnDArgument : "expr" "10"
+		/// @DnDArgument : "var" "player_State"
+		with(obj_player) {
+		player_State = 10;
+		
+		}
 	}
 }
