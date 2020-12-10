@@ -26,6 +26,6 @@ obj_player.Player_happy_max = 500;
 /// @DnDVersion : 1
 /// @DnDHash : 131904A3
 /// @DnDApplyTo : {obj_player}
-/// @DnDArgument : "room" "Stage3"
-/// @DnDSaveInfo : "room" "Stage3"
-with(obj_player) room_goto(Stage3);
+/// @DnDArgument : "room" "NomalEnd"
+/// @DnDSaveInfo : "room" "NomalEnd"
+with(obj_player) room_goto(NomalEnd);

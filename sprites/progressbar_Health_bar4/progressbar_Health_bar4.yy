@@ -10,7 +10,7 @@
   "bbox_left": 10,
   "bbox_right": 431,
   "bbox_top": 11,
-  "bbox_bottom": 121,
+  "bbox_bottom": 122,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d7c3819-00e9-44b7-a2f6-3aeaa75becad","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d7c3819-00e9-44b7-a2f6-3aeaa75becad","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"LayerId":{"name":"d521f09d-166d-4345-9407-12631bdfe597","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"progressbar_Health_bar4","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","name":"4d7c3819-00e9-44b7-a2f6-3aeaa75becad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"19f167e9-4acc-4679-8a54-46d90512980f","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"19f167e9-4acc-4679-8a54-46d90512980f","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"LayerId":{"name":"3e5d45a3-9045-4eb3-900d-b1327a774465","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"progressbar_Health_bar4","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","name":"19f167e9-4acc-4679-8a54-46d90512980f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"progressbar_Health_bar4","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c81af669-3c03-4b25-98c3-eadb5c75e328","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d7c3819-00e9-44b7-a2f6-3aeaa75becad","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0895f67d-63bd-4227-aca9-392a01707212","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19f167e9-4acc-4679-8a54-46d90512980f","path":"sprites/progressbar_Health_bar4/progressbar_Health_bar4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d521f09d-166d-4345-9407-12631bdfe597","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e5d45a3-9045-4eb3-900d-b1327a774465","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Hp",

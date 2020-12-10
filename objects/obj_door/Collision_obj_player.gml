@@ -26,9 +26,9 @@ obj_player.Player_happy_max = 250;
 /// @DnDVersion : 1
 /// @DnDHash : 724B6EEF
 /// @DnDApplyTo : {obj_player}
-/// @DnDArgument : "room" "Stage2"
-/// @DnDSaveInfo : "room" "Stage2"
-with(obj_player) room_goto(Stage2);
+/// @DnDArgument : "room" "NomalEnd"
+/// @DnDSaveInfo : "room" "NomalEnd"
+with(obj_player) room_goto(NomalEnd);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

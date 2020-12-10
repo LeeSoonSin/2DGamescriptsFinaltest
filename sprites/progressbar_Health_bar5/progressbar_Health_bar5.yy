@@ -10,7 +10,7 @@
   "bbox_left": 10,
   "bbox_right": 431,
   "bbox_top": 11,
-  "bbox_bottom": 121,
+  "bbox_bottom": 117,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8f6ab903-1440-4113-914a-cc5f5cebe71e","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f6ab903-1440-4113-914a-cc5f5cebe71e","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"LayerId":{"name":"7aacec66-3b51-48e4-82a1-fd6eb8ab59b5","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"progressbar_Health_bar5","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","name":"8f6ab903-1440-4113-914a-cc5f5cebe71e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2ba99d5c-5230-4929-9b1b-e120ee9bdb5b","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ba99d5c-5230-4929-9b1b-e120ee9bdb5b","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"LayerId":{"name":"7e2b7f4b-2baa-4742-9c00-e654f8d891f4","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"progressbar_Health_bar5","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","name":"2ba99d5c-5230-4929-9b1b-e120ee9bdb5b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"progressbar_Health_bar5","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a1f79645-7107-46c1-a13f-75c744938c8b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f6ab903-1440-4113-914a-cc5f5cebe71e","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2deee0ea-ec16-4751-b021-b3814b59c48c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ba99d5c-5230-4929-9b1b-e120ee9bdb5b","path":"sprites/progressbar_Health_bar5/progressbar_Health_bar5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7aacec66-3b51-48e4-82a1-fd6eb8ab59b5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7e2b7f4b-2baa-4742-9c00-e654f8d891f4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Hp",
