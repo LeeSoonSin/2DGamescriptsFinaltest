@@ -13,7 +13,7 @@ event_user(2);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1155F640
-/// @DnDArgument : "expr" "dir*moveSpeed"
+/// @DnDArgument : "expr" "smoke_dir*moveSpeed"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "x"
-x += dir*moveSpeed;
+x += smoke_dir*moveSpeed;
