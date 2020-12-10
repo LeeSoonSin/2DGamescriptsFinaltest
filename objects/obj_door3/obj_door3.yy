@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Door",
-    "path": "sprites/Door/Door.yy",
+    "name": "Door3",
+    "path": "sprites/Door3/Door3.yy",
   },
   "solid": false,
   "visible": true,
