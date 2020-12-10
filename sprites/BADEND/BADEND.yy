@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ec53f3ae-8c22-4727-bb3d-441765e5fb8e","path":"sprites/BADEND/BADEND.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec53f3ae-8c22-4727-bb3d-441765e5fb8e","path":"sprites/BADEND/BADEND.yy",},"LayerId":{"name":"a4c4ff5a-2162-4282-a66e-d70dccb6d3ca","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"BADEND","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","name":"ec53f3ae-8c22-4727-bb3d-441765e5fb8e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"92dbfb85-43e7-4901-bb6b-a042c3941e48","path":"sprites/BADEND/BADEND.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"92dbfb85-43e7-4901-bb6b-a042c3941e48","path":"sprites/BADEND/BADEND.yy",},"LayerId":{"name":"7bbb6e44-1c72-4ea5-9488-6505a2c21119","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"BADEND","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","name":"92dbfb85-43e7-4901-bb6b-a042c3941e48","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"BADEND","path":"sprites/BADEND/BADEND.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0f359958-9a01-4ef0-bdf1-0ee2344e293e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec53f3ae-8c22-4727-bb3d-441765e5fb8e","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6a5d9479-27b8-42dd-b0b2-44de2a5fb7af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92dbfb85-43e7-4901-bb6b-a042c3941e48","path":"sprites/BADEND/BADEND.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a4c4ff5a-2162-4282-a66e-d70dccb6d3ca","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7bbb6e44-1c72-4ea5-9488-6505a2c21119","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Ending",
-    "path": "folders/Sprites/Ending.yy",
+    "name": "Start_and_End",
+    "path": "folders/Sprites/Start_and_End.yy",
   },
   "resourceVersion": "1.0",
   "name": "BADEND",

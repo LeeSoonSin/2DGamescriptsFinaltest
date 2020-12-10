@@ -9,14 +9,14 @@ if(global.player_Stage == 1)
 	/// @DnDHash : 223906D6
 	/// @DnDInput : 2
 	/// @DnDParent : 4C489C4F
-	/// @DnDArgument : "expr" "+25"
+	/// @DnDArgument : "expr" "+12"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "expr_1" "-15"
+	/// @DnDArgument : "expr_1" "-10"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "global.happy_Amount"
 	/// @DnDArgument : "var_1" "global.hp_Amount"
-	global.happy_Amount += +25;
-	global.hp_Amount += -15;
+	global.happy_Amount += +12;
+	global.hp_Amount += -10;
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
@@ -44,13 +44,13 @@ if(global.player_Stage == 2)
 	/// @DnDHash : 6FEEBA44
 	/// @DnDInput : 2
 	/// @DnDParent : 54020CEA
-	/// @DnDArgument : "expr" "+50"
+	/// @DnDArgument : "expr" "+40"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "-35"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "global.happy_Amount"
 	/// @DnDArgument : "var_1" "global.hp_Amount"
-	global.happy_Amount += +50;
+	global.happy_Amount += +40;
 	global.hp_Amount += -35;
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -79,13 +79,13 @@ if(global.player_Stage == 3)
 	/// @DnDHash : 10C2FAC6
 	/// @DnDInput : 2
 	/// @DnDParent : 69C145D0
-	/// @DnDArgument : "expr" "+100"
+	/// @DnDArgument : "expr" "+55"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "-80"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "global.happy_Amount"
 	/// @DnDArgument : "var_1" "global.hp_Amount"
-	global.happy_Amount += +100;
+	global.happy_Amount += +55;
 	global.hp_Amount += -80;
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio

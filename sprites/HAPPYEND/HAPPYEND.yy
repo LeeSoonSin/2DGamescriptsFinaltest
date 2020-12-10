@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"55fa9f99-5346-45bf-96ed-6f9d07af7a53","path":"sprites/HAPPYEND/HAPPYEND.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"55fa9f99-5346-45bf-96ed-6f9d07af7a53","path":"sprites/HAPPYEND/HAPPYEND.yy",},"LayerId":{"name":"eb027b2d-9229-48cf-9635-6132d5211bc6","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"HAPPYEND","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","name":"55fa9f99-5346-45bf-96ed-6f9d07af7a53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8df15e3c-28fd-478f-9bf2-e596234ecf25","path":"sprites/HAPPYEND/HAPPYEND.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8df15e3c-28fd-478f-9bf2-e596234ecf25","path":"sprites/HAPPYEND/HAPPYEND.yy",},"LayerId":{"name":"b80f1683-9463-41e9-971c-5699da37f3b9","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"HAPPYEND","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","name":"8df15e3c-28fd-478f-9bf2-e596234ecf25","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"HAPPYEND","path":"sprites/HAPPYEND/HAPPYEND.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b8e5111d-c361-4eaf-b3cd-9a31881e87f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55fa9f99-5346-45bf-96ed-6f9d07af7a53","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65eeb4c2-3ee0-471f-bbac-f2070f6eddc1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8df15e3c-28fd-478f-9bf2-e596234ecf25","path":"sprites/HAPPYEND/HAPPYEND.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eb027b2d-9229-48cf-9635-6132d5211bc6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b80f1683-9463-41e9-971c-5699da37f3b9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Ending",
-    "path": "folders/Sprites/Ending.yy",
+    "name": "Start_and_End",
+    "path": "folders/Sprites/Start_and_End.yy",
   },
   "resourceVersion": "1.0",
   "name": "HAPPYEND",
